@@ -10,6 +10,11 @@
     .container {
         background-color: white;
         position: relative;
+        .coin-gauche-haut{
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
 
         .coin-droit-haut {
             position: absolute;
@@ -36,6 +41,9 @@
         }
         .logo{
             border-right: 1px solid gray;
+            h3{
+                font-family: "courgette";
+            }
         }
 }
         .col-5 {

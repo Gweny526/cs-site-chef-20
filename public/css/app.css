@@ -3,6 +3,10 @@
   font-family: "courgette";
   src: url(../../public/fonts/Courgette-Regular.ttf);
 }
+.sc-3 .form-book {
+  background-image: url(../);
+}
+
 /*!
  * Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
@@ -17305,6 +17309,11 @@ main {
   background-color: white;
   position: relative;
 }
+.sc-1 .container .coin-gauche-haut {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 .sc-1 .container .coin-droit-haut {
   position: absolute;
   right: 0;
@@ -17326,6 +17335,9 @@ main {
 .sc-1 .Menu-list .logo {
   border-right: 1px solid gray;
 }
+.sc-1 .Menu-list .logo h3, .sc-1 .Menu-list .logo .h3 {
+  font-family: "courgette";
+}
 .sc-1 .col-5 div {
   display: flex;
 }
@@ -17339,6 +17351,55 @@ main {
 }
 .sc-1 .col-5 .prix span {
   margin: auto;
+}
+
+section .our-team {
+  background-image: linear-gradient(rgba(110, 100, 100, 0.001), rgba(0, 0, 0, 0.001)), url(../../../public/images/team_background.jpg);
+}
+section .our-team .titre {
+  font-family: "courgette";
+}
+
+.sc-3 {
+  background-image: url(../../../public/images/main_bg.jpg);
+}
+.sc-3 .container {
+  background-color: white;
+  position: relative;
+}
+.sc-3 .container .coin-gauche-haut {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.sc-3 .container .coin-droit-haut {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.sc-3 .container .coin-gauche-bas {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.sc-3 .container .coin-droit-bas {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.sc-3 .book-table h2, .sc-3 .book-table .h2 {
+  font-family: "courgette";
+}
+.sc-3 .form-book {
+  background-image: url(../../../public/images/book_table_bg.jpg);
+  width: 50%;
+  border-radius: 3%;
+}
+.sc-3 .form-book .col-6 {
+  width: 20%;
+}
+.sc-3 .form-book .col-6 .form-select {
+  width: 75%;
 }
 
 /*# sourceMappingURL=app.css.map */
