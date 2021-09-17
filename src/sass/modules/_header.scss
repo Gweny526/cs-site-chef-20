@@ -1,54 +1,70 @@
 // header
-.navbar{
+.navbar {
     position: absolute;
-    background: transparent!important;
+    background: transparent !important;
     width: 100%;
     z-index: 10;
-    
-    .nav-link{
+
+    .nav-link {
         color: white;
         font-weight: bold;
         border-bottom: 1px solid white;
         border-top: 1px solid white;
-        &:hover{
+
+        &:hover {
             background-color: red;
         }
     }
 }
-.text-banner{
-    .container-fluid{
+
+.text-banner {
+    .container-fluid {
         position: absolute;
         z-index: 1;
         padding-top: 100px;
         top: 100px;
         width: 100%;
-        background: transparent!important;
-        .col{
-            h1{
+        background: transparent !important;
+
+        .col {
+            h1 {
                 font-family: "courgette";
-                font-size: 60px;
-                margin: 0 150px 0 150px
+                font-size: 5rem;
+                margin: 0 150px 0
             }
-            color: white;
-            .span-red{
-                color: red;
+
+            @media screen and (max-width:600px) {
+                h1 {
+                    display: none;
+                }
+                a{
+                    display: none;
+                }
+
             }
+
+        }
+
+        color: white;
+
+        .span-red {
+            color: red;
         }
     }
-
 }
 
 
-.carousel{
-    .carousel-indicators{
-        button{
+.carousel {
+    .carousel-indicators {
+        button {
             border-radius: 50%;
             height: 20px;
             width: 20px;
         }
     }
-    .carousel-item{
-        &::before{
+
+    .carousel-item {
+        &::before {
             content: "";
             display: black;
             position: absolute;
@@ -61,4 +77,3 @@
         }
     }
 }
-
