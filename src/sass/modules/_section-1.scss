@@ -1,24 +1,59 @@
 // section 1
-.sc-1{
+.sc-1 {
     padding-top: 50px;
     padding-bottom: 50px;
-    .container{
+    .our-story{
+        h2{
+            font-family: "courgette";
+        }
+    }
+    .container {
         background-color: white;
         position: relative;
-        .coin-droit-haut{
+
+        .coin-droit-haut {
             position: absolute;
             right: 0;
             top: 0;
         }
-        .coin-gauche-bas{
+
+        .coin-gauche-bas {
             position: absolute;
             left: 0;
             bottom: 0;
         }
-        .coin-droit-bas{
-            position:absolute;
+
+        .coin-droit-bas {
+            position: absolute;
             right: 0;
             bottom: 0;
         }
     }
+
+    .Menu-list {
+        h2{
+            font-family: "courgette";
+        }
+        .logo{
+            border-right: 1px solid gray;
+        }
 }
+        .col-5 {
+            div {
+                display: flex;
+                &:nth-child(2){
+                    border-bottom: 1px solid grey;
+                }
+                .rounded-circle {
+                    height: 85px;
+                    margin: 2%;
+                    border:5px solid lightgray;
+                }
+            }
+            .prix{
+                span{
+                    margin: auto;
+                }
+            }
+        }
+    }
