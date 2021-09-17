@@ -17243,6 +17243,9 @@ textarea.form-control-lg {
   border-bottom: 1px solid white;
   border-top: 1px solid white;
 }
+.navbar .nav-link:hover {
+  background-color: red;
+}
 
 .text-banner .container-fluid, .text-banner .container-sm, .text-banner .container-md, .text-banner .container-lg, .text-banner .container-xl, .text-banner .container-xxl {
   position: absolute;

@@ -10,6 +10,9 @@
         font-weight: bold;
         border-bottom: 1px solid white;
         border-top: 1px solid white;
+        &:hover{
+            background-color: red;
+        }
     }
 }
 .text-banner{
