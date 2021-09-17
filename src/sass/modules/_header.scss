@@ -1,0 +1,61 @@
+// header
+.navbar{
+    position: absolute;
+    background: transparent!important;
+    width: 100%;
+    z-index: 10;
+    
+    .nav-link{
+        color: white;
+        font-weight: bold;
+        border-bottom: 1px solid white;
+        border-top: 1px solid white;
+    }
+}
+.text-banner{
+    .container-fluid{
+        position: absolute;
+        z-index: 1;
+        padding-top: 100px;
+        top: 100px;
+        width: 100%;
+        background: transparent!important;
+        .col{
+            h1{
+                font-family: "courgette";
+                font-size: 60px;
+                margin: 0 150px 0 150px
+            }
+            color: white;
+            .span-red{
+                color: red;
+            }
+        }
+    }
+
+}
+
+
+.carousel{
+    .carousel-indicators{
+        button{
+            border-radius: 50%;
+            height: 20px;
+            width: 20px;
+        }
+    }
+    .carousel-item{
+        &::before{
+            content: "";
+            display: black;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: #000;
+            opacity: 0.7;
+        }
+    }
+}
+
