@@ -1,0 +1,17 @@
+// section 5
+.sct-5{
+    .contact-us{
+        h2{
+            font-family: "courgette";
+            span{
+                color: $color-red;
+            }
+        }
+        .cont-contact{
+            background-color: $color-red;
+            width: 400px;
+            border: 1px  solid $color-red;
+            border-radius: 10px;
+        }
+    }
+}

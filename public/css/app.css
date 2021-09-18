@@ -17469,4 +17469,17 @@ section .our-team .titre {
   margin-left: 10px;
 }
 
+.sct-5 .contact-us h2, .sct-5 .contact-us .h2 {
+  font-family: "courgette";
+}
+.sct-5 .contact-us h2 span, .sct-5 .contact-us .h2 span {
+  color: #c03341;
+}
+.sct-5 .contact-us .cont-contact {
+  background-color: #c03341;
+  width: 400px;
+  border: 1px solid #c03341;
+  border-radius: 10px;
+}
+
 /*# sourceMappingURL=app.css.map */
