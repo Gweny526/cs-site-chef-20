@@ -17439,5 +17439,34 @@ section .our-team .titre {
 .sc-4 .testimo h2 span, .sc-4 .testimo .h2 span {
   color: #c03341;
 }
+.sc-4 .img-t .row .col {
+  margin-bottom: 25px;
+  position: relative;
+}
+.sc-4 .img-t .row .col img {
+  height: 200px;
+  border: 5px solid lightgray;
+  border-radius: 50%;
+}
+.sc-4 .img-t .row .col .text-testi-1, .sc-4 .img-t .row .col .text-testi-2 {
+  position: absolute;
+  top: 0;
+  height: 200px;
+  color: white;
+  width: 50%;
+  border: 1px solid white;
+  border-radius: 2%;
+  padding: 10px;
+}
+.sc-4 .img-t .row .col .text-testi-1 span, .sc-4 .img-t .row .col .text-testi-2 span {
+  text-transform: capitalize;
+  color: #c03341;
+}
+.sc-4 .img-t .row .col .text-testi-1 {
+  right: 0;
+}
+.sc-4 .img-t .row .col .text-testi-2 {
+  margin-left: 10px;
+}
 
 /*# sourceMappingURL=app.css.map */
