@@ -3,10 +3,6 @@
   font-family: "courgette";
   src: url(../../public/fonts/Courgette-Regular.ttf);
 }
-.sc-3 .form-book {
-  background-image: url(../);
-}
-
 /*!
  * Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
@@ -17248,7 +17244,7 @@ textarea.form-control-lg {
   border-top: 1px solid white;
 }
 .navbar .nav-link:hover {
-  background-color: red;
+  background-color: #c03341;
 }
 
 .text-banner .container-fluid, .text-banner .container-sm, .text-banner .container-md, .text-banner .container-lg, .text-banner .container-xl, .text-banner .container-xxl {
@@ -17264,6 +17260,9 @@ textarea.form-control-lg {
   font-family: "courgette";
   font-size: 5rem;
   margin: 0 150px 0;
+}
+.text-banner .container-fluid .col h1 .span-color, .text-banner .container-sm .col h1 .span-color, .text-banner .container-md .col h1 .span-color, .text-banner .container-lg .col h1 .span-color, .text-banner .container-xl .col h1 .span-color, .text-banner .container-xxl .col h1 .span-color, .text-banner .container-fluid .col .h1 .span-color, .text-banner .container-sm .col .h1 .span-color, .text-banner .container-md .col .h1 .span-color, .text-banner .container-lg .col .h1 .span-color, .text-banner .container-xl .col .h1 .span-color, .text-banner .container-xxl .col .h1 .span-color {
+  color: #c03341;
 }
 @media screen and (max-width: 600px) {
   .text-banner .container-fluid .col h1, .text-banner .container-sm .col h1, .text-banner .container-md .col h1, .text-banner .container-lg .col h1, .text-banner .container-xl .col h1, .text-banner .container-xxl .col h1, .text-banner .container-fluid .col .h1, .text-banner .container-sm .col .h1, .text-banner .container-md .col .h1, .text-banner .container-lg .col .h1, .text-banner .container-xl .col .h1, .text-banner .container-xxl .col .h1 {
@@ -17305,6 +17304,9 @@ main {
 .sc-1 .our-story h2, .sc-1 .our-story .h2 {
   font-family: "courgette";
 }
+.sc-1 .our-story h2 span, .sc-1 .our-story .h2 span {
+  color: #c03341;
+}
 .sc-1 .container {
   background-color: white;
   position: relative;
@@ -17332,6 +17334,9 @@ main {
 .sc-1 .Menu-list h2, .sc-1 .Menu-list .h2 {
   font-family: "courgette";
 }
+.sc-1 .Menu-list h2 span, .sc-1 .Menu-list .h2 span {
+  color: #c03341;
+}
 .sc-1 .Menu-list .logo {
   border-right: 1px solid gray;
 }
@@ -17356,12 +17361,17 @@ main {
 section .our-team {
   background-image: linear-gradient(rgba(110, 100, 100, 0.001), rgba(0, 0, 0, 0.001)), url(../../../public/images/team_background.jpg);
 }
+section .our-team span {
+  color: #c03341;
+}
 section .our-team .titre {
   font-family: "courgette";
 }
 
 .sc-3 {
   background-image: url(../../../public/images/main_bg.jpg);
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 .sc-3 .container {
   background-color: white;
@@ -17390,16 +17400,44 @@ section .our-team .titre {
 .sc-3 .book-table h2, .sc-3 .book-table .h2 {
   font-family: "courgette";
 }
+.sc-3 .book-table h2 span, .sc-3 .book-table .h2 span {
+  color: #c03341;
+}
 .sc-3 .form-book {
   background-image: url(../../../public/images/book_table_bg.jpg);
   width: 50%;
   border-radius: 3%;
+  margin-left: 25%;
 }
-.sc-3 .form-book .col-6 {
-  width: 20%;
+.sc-3 .form-book .col-6 .form-select, .sc-3 .form-book .col-6 input {
+  width: 200px;
+  height: 40px;
+  margin-bottom: 10px;
+  border: 1px solid white;
+  border-radius: 10px;
 }
 .sc-3 .form-book .col-6 .form-select {
-  width: 75%;
+  margin-left: 32px !important;
+}
+.sc-3 .container-img .row .col img {
+  height: 200px;
+  width: 400px;
+  border-radius: 4% !important;
+  border: 5px solid lightgray;
+  position: relative;
+}
+.sc-3 .container-img .row .col img span {
+  position: absolute;
+}
+
+.sc-4 .testimo {
+  background-image: url("../../../public/images/testimonials_background.jpg");
+}
+.sc-4 .testimo h2, .sc-4 .testimo .h2 {
+  font-family: "courgette";
+}
+.sc-4 .testimo h2 span, .sc-4 .testimo .h2 span {
+  color: #c03341;
 }
 
 /*# sourceMappingURL=app.css.map */

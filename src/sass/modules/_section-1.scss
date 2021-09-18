@@ -5,6 +5,9 @@
     .our-story{
         h2{
             font-family: "courgette";
+            span{
+                color: $color-red;
+            }
         }
     }
     .container {
@@ -38,6 +41,9 @@
     .Menu-list {
         h2{
             font-family: "courgette";
+            span{
+                color: $color-red;
+            }
         }
         .logo{
             border-right: 1px solid gray;

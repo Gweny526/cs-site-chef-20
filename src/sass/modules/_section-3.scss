@@ -1,6 +1,8 @@
 // section 3
 .sc-3{
     background-image: url(../../../public/images/main_bg.jpg);
+    padding-top: 50px;
+    padding-bottom: 50px;
     .container{
         background-color: white;
         position: relative;
@@ -30,17 +32,46 @@
     .book-table{
         h2{
             font-family: "courgette";
+            span{
+                color: $color-red;
+            }
         }
     }
     .form-book{
         background-image: url(../../../public/images/book_table_bg.jpg);
         width: 50%;
         border-radius: 3%;
+        margin-left: 25%;
+        
         .col-6{
-            width: 20%;
+            .form-select,input{
+                width: 200px;
+                height: 40px;
+                margin-bottom: 10px;
+                border: 1px solid white;
+                border-radius: 10px;
+            }
             .form-select{
-                width: 75%;
-                
+                margin-left: 32px!important;
+            
+            }
+        }
+    }
+    .container-img{
+        .row{
+            .col{
+                img{
+                    height: 200px;
+                    width: 400px;
+                    border-radius: 4%!important;
+                    border: 5px solid lightgray;
+                    position: relative;
+                    span{
+                        position: absolute;
+                    
+                    }
+
+                }
             }
         }
     }
