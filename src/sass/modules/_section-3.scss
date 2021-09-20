@@ -36,23 +36,45 @@
                 color: $color-red;
             }
         }
+        .under-l{
+
+            @media screen and (max-width:600px) {
+                text-align: center;
+                width: 50%;
+                
+            }
+        }
     }
     .form-book{
         background-image: url(../../../public/images/book_table_bg.jpg);
         width: 50%;
         border-radius: 3%;
         margin-left: 25%;
-        
-        .col-6{
+        .c-f{
             .form-select,input{
                 width: 200px;
                 height: 40px;
                 margin-bottom: 10px;
                 border: 1px solid white;
                 border-radius: 10px;
+                @media screen and (max-width:600px) {
+                    width: 70%;
+
+                }
+                @media screen and (min-width:600px) and (max-width:1024px) {
+                    width: 80%;
+                }
             }
             .form-select{
-                margin-left: 32px!important;
+                margin-left: 35px!important;
+                @media screen  and (max-width:600px){
+                    margin: 0 0 10px 0!important;
+                    margin-left: 25px!important;
+                }
+                @media screen and (min-width:600px) and (max-width:1024px) {
+                    margin: 0 0 10px 0!important;
+                    margin-left: 15px!important;
+                }
             
             }
         }
@@ -60,17 +82,32 @@
     .container-img{
         .row{
             .col{
+                position: relative;
                 img{
                     height: 200px;
                     width: 400px;
                     border-radius: 4%!important;
                     border: 5px solid lightgray;
-                    position: relative;
-                    span{
-                        position: absolute;
                     
+                }
+                .badge{
+                    position: absolute;
+                    bottom: 95px;
+                    left: 120px;
+                    span{
+                        margin-left: 120px!important;
+                        margin-top: 0;
                     }
-
+                    .gr-2{
+                        z-index: 1;
+                        margin-left: 0!important;
+                        margin-right: 20px!important;
+                    }
+                }
+                .t-blog{
+                    margin-top: 120px!important;
+                    margin: 0 100px 0 100px!important;
+                    
                 }
             }
         }

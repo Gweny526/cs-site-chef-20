@@ -9,6 +9,17 @@
                 color: $color-red;
             }
         }
+        img{
+
+            @media screen and (max-width:600px) {
+                text-align: center;
+                width: 50%;
+                
+            }
+        }
+        p{
+            margin: 0 300px 0 300px!important;
+        }
     }
     .container {
         background-color: white;
@@ -45,26 +56,55 @@
                 color: $color-red;
             }
         }
+        img{
+
+            @media screen and (max-width:600px) {
+                text-align: center;
+                width: 50%;
+                
+            }
+        }        
         .logo{
+        }
+        .l-c{
+            border-bottom: 1px solid gray;
             border-right: 1px solid gray;
+                &:hover{
+                    border-right: 5px solid $color-red;
+                i{
+                    
+                        color: $color-red!important;
+
+                }
+            }           
             h3{
                 font-family: "courgette";
+                @media screen and (max-width:600px){
+                    font-size: 10px!important;
+                }
             }
         }
 }
-        .col-5 {
-            div {
+        .cl-img{
+            .b-b-l{
                 display: flex;
-                &:nth-child(2){
-                    border-bottom: 1px solid grey;
+                border-bottom: 1px solid lightgray;
+                @media screen and (max-width:600px) {
                 }
+                
+                
                 .rounded-circle {
-                    height: 85px;
-                    margin: 2%;
-                    border:5px solid lightgray;
+                    height: 85px!important;
+                    margin: 2%!important;
+                    border:5px solid lightgray!important;
+                    @media screen and (max-width: 600px) {
+
+                        
+                    }
                 }
             }
             .prix{
+                padding-top: 30px!important;
                 span{
                     margin: auto;
                 }

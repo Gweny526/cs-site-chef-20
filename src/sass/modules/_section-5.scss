@@ -7,11 +7,24 @@
                 color: $color-red;
             }
         }
+        .under-l{
+
+            @media screen and (max-width:600px) {
+                text-align: center;
+                width: 50%;
+                
+            }
+        }
         .cont-contact{
             background-color: $color-red;
             width: 400px;
             border: 1px  solid $color-red;
             border-radius: 10px;
+            @media screen and (max-width:600px) {
+                width: 200px;
+                
+            }
         }
+
     }
 }

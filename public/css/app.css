@@ -17246,6 +17246,11 @@ textarea.form-control-lg {
 .navbar .nav-link:hover {
   background-color: #c03341;
 }
+@media screen and (max-width: 600px) {
+  .navbar .log-nav {
+    display: none;
+  }
+}
 
 .text-banner .container-fluid, .text-banner .container-sm, .text-banner .container-md, .text-banner .container-lg, .text-banner .container-xl, .text-banner .container-xxl {
   position: absolute;
@@ -17256,19 +17261,34 @@ textarea.form-control-lg {
   background: transparent !important;
   color: white;
 }
+@media screen and (max-width: 600px) {
+  .text-banner .container-fluid, .text-banner .container-sm, .text-banner .container-md, .text-banner .container-lg, .text-banner .container-xl, .text-banner .container-xxl {
+    padding: 0 !important;
+  }
+}
 .text-banner .container-fluid .col h1, .text-banner .container-sm .col h1, .text-banner .container-md .col h1, .text-banner .container-lg .col h1, .text-banner .container-xl .col h1, .text-banner .container-xxl .col h1, .text-banner .container-fluid .col .h1, .text-banner .container-sm .col .h1, .text-banner .container-md .col .h1, .text-banner .container-lg .col .h1, .text-banner .container-xl .col .h1, .text-banner .container-xxl .col .h1 {
   font-family: "courgette";
   font-size: 5rem;
   margin: 0 150px 0;
 }
 .text-banner .container-fluid .col h1 .span-color, .text-banner .container-sm .col h1 .span-color, .text-banner .container-md .col h1 .span-color, .text-banner .container-lg .col h1 .span-color, .text-banner .container-xl .col h1 .span-color, .text-banner .container-xxl .col h1 .span-color, .text-banner .container-fluid .col .h1 .span-color, .text-banner .container-sm .col .h1 .span-color, .text-banner .container-md .col .h1 .span-color, .text-banner .container-lg .col .h1 .span-color, .text-banner .container-xl .col .h1 .span-color, .text-banner .container-xxl .col .h1 .span-color {
-  color: #c03341;
+  color: #c03341 !important;
 }
 @media screen and (max-width: 600px) {
   .text-banner .container-fluid .col h1, .text-banner .container-sm .col h1, .text-banner .container-md .col h1, .text-banner .container-lg .col h1, .text-banner .container-xl .col h1, .text-banner .container-xxl .col h1, .text-banner .container-fluid .col .h1, .text-banner .container-sm .col .h1, .text-banner .container-md .col .h1, .text-banner .container-lg .col .h1, .text-banner .container-xl .col .h1, .text-banner .container-xxl .col .h1 {
-    display: none;
+    font-size: 15px !important;
+    margin: 0 !important;
   }
   .text-banner .container-fluid .col a, .text-banner .container-sm .col a, .text-banner .container-md .col a, .text-banner .container-lg .col a, .text-banner .container-xl .col a, .text-banner .container-xxl .col a {
+    font-size: 10px;
+  }
+  .text-banner .container-fluid .col a span, .text-banner .container-sm .col a span, .text-banner .container-md .col a span, .text-banner .container-lg .col a span, .text-banner .container-xl .col a span, .text-banner .container-xxl .col a span {
+    margin: 0 !important;
+    padding: 10px !important;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+  .text-banner .container-fluid .col h1, .text-banner .container-sm .col h1, .text-banner .container-md .col h1, .text-banner .container-lg .col h1, .text-banner .container-xl .col h1, .text-banner .container-xxl .col h1, .text-banner .container-fluid .col .h1, .text-banner .container-sm .col .h1, .text-banner .container-md .col .h1, .text-banner .container-lg .col .h1, .text-banner .container-xl .col .h1, .text-banner .container-xxl .col .h1 {
     display: none;
   }
 }
@@ -17307,6 +17327,15 @@ main {
 .sc-1 .our-story h2 span, .sc-1 .our-story .h2 span {
   color: #c03341;
 }
+@media screen and (max-width: 600px) {
+  .sc-1 .our-story img {
+    text-align: center;
+    width: 50%;
+  }
+}
+.sc-1 .our-story p {
+  margin: 0 300px 0 300px !important;
+}
 .sc-1 .container {
   background-color: white;
   position: relative;
@@ -17337,35 +17366,60 @@ main {
 .sc-1 .Menu-list h2 span, .sc-1 .Menu-list .h2 span {
   color: #c03341;
 }
-.sc-1 .Menu-list .logo {
+@media screen and (max-width: 600px) {
+  .sc-1 .Menu-list img {
+    text-align: center;
+    width: 50%;
+  }
+}
+.sc-1 .Menu-list .l-c {
+  border-bottom: 1px solid gray;
   border-right: 1px solid gray;
 }
-.sc-1 .Menu-list .logo h3, .sc-1 .Menu-list .logo .h3 {
+.sc-1 .Menu-list .l-c:hover {
+  border-right: 5px solid #c03341;
+}
+.sc-1 .Menu-list .l-c:hover i {
+  color: #c03341 !important;
+}
+.sc-1 .Menu-list .l-c h3, .sc-1 .Menu-list .l-c .h3 {
   font-family: "courgette";
 }
-.sc-1 .col-5 div {
+@media screen and (max-width: 600px) {
+  .sc-1 .Menu-list .l-c h3, .sc-1 .Menu-list .l-c .h3 {
+    font-size: 10px !important;
+  }
+}
+.sc-1 .cl-img .b-b-l {
   display: flex;
+  border-bottom: 1px solid lightgray;
 }
-.sc-1 .col-5 div:nth-child(2) {
-  border-bottom: 1px solid grey;
+.sc-1 .cl-img .b-b-l .rounded-circle {
+  height: 85px !important;
+  margin: 2% !important;
+  border: 5px solid lightgray !important;
 }
-.sc-1 .col-5 div .rounded-circle {
-  height: 85px;
-  margin: 2%;
-  border: 5px solid lightgray;
+.sc-1 .cl-img .prix {
+  padding-top: 30px !important;
 }
-.sc-1 .col-5 .prix span {
+.sc-1 .cl-img .prix span {
   margin: auto;
 }
 
 section .our-team {
   background-image: linear-gradient(rgba(110, 100, 100, 0.001), rgba(0, 0, 0, 0.001)), url(../../../public/images/team_background.jpg);
 }
-section .our-team span {
-  color: #c03341;
-}
 section .our-team .titre {
   font-family: "courgette";
+}
+section .our-team .titre span {
+  color: #c03341;
+}
+@media screen and (max-width: 600px) {
+  section .our-team .under-l {
+    text-align: center;
+    width: 50%;
+  }
 }
 
 .sc-3 {
@@ -17403,31 +17457,76 @@ section .our-team .titre {
 .sc-3 .book-table h2 span, .sc-3 .book-table .h2 span {
   color: #c03341;
 }
+@media screen and (max-width: 600px) {
+  .sc-3 .book-table .under-l {
+    text-align: center;
+    width: 50%;
+  }
+}
 .sc-3 .form-book {
   background-image: url(../../../public/images/book_table_bg.jpg);
   width: 50%;
   border-radius: 3%;
   margin-left: 25%;
 }
-.sc-3 .form-book .col-6 .form-select, .sc-3 .form-book .col-6 input {
+.sc-3 .form-book .c-f .form-select, .sc-3 .form-book .c-f input {
   width: 200px;
   height: 40px;
   margin-bottom: 10px;
   border: 1px solid white;
   border-radius: 10px;
 }
-.sc-3 .form-book .col-6 .form-select {
-  margin-left: 32px !important;
+@media screen and (max-width: 600px) {
+  .sc-3 .form-book .c-f .form-select, .sc-3 .form-book .c-f input {
+    width: 70%;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+  .sc-3 .form-book .c-f .form-select, .sc-3 .form-book .c-f input {
+    width: 80%;
+  }
+}
+.sc-3 .form-book .c-f .form-select {
+  margin-left: 35px !important;
+}
+@media screen and (max-width: 600px) {
+  .sc-3 .form-book .c-f .form-select {
+    margin: 0 0 10px 0 !important;
+    margin-left: 25px !important;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+  .sc-3 .form-book .c-f .form-select {
+    margin: 0 0 10px 0 !important;
+    margin-left: 15px !important;
+  }
+}
+.sc-3 .container-img .row .col {
+  position: relative;
 }
 .sc-3 .container-img .row .col img {
   height: 200px;
   width: 400px;
   border-radius: 4% !important;
   border: 5px solid lightgray;
-  position: relative;
 }
-.sc-3 .container-img .row .col img span {
+.sc-3 .container-img .row .col .badge {
   position: absolute;
+  bottom: 95px;
+  left: 120px;
+}
+.sc-3 .container-img .row .col .badge span {
+  margin-left: 120px !important;
+  margin-top: 0;
+}
+.sc-3 .container-img .row .col .badge .gr-2 {
+  z-index: 1;
+  margin-left: 0 !important;
+  margin-right: 20px !important;
+}
+.sc-3 .container-img .row .col .t-blog {
+  margin-top: 120px !important;
+  margin: 0 100px 0 100px !important;
 }
 
 .sc-4 .testimo {
@@ -17439,6 +17538,12 @@ section .our-team .titre {
 .sc-4 .testimo h2 span, .sc-4 .testimo .h2 span {
   color: #c03341;
 }
+@media screen and (max-width: 600px) {
+  .sc-4 .testimo .under-l {
+    text-align: center;
+    width: 50%;
+  }
+}
 .sc-4 .img-t .row .col {
   margin-bottom: 25px;
   position: relative;
@@ -17448,7 +17553,13 @@ section .our-team .titre {
   border: 5px solid lightgray;
   border-radius: 50%;
 }
-.sc-4 .img-t .row .col .text-testi-1, .sc-4 .img-t .row .col .text-testi-2 {
+@media screen and (max-width: 600px) {
+  .sc-4 .img-t .row .col img {
+    height: 100px !important;
+  }
+}
+.sc-4 .img-t .row .text-testi-1,
+.sc-4 .img-t .row .text-testi-2 {
   position: absolute;
   top: 0;
   height: 200px;
@@ -17458,14 +17569,14 @@ section .our-team .titre {
   border-radius: 2%;
   padding: 10px;
 }
-.sc-4 .img-t .row .col .text-testi-1 span, .sc-4 .img-t .row .col .text-testi-2 span {
+.sc-4 .img-t .row span {
   text-transform: capitalize;
   color: #c03341;
 }
-.sc-4 .img-t .row .col .text-testi-1 {
+.sc-4 .img-t .text-testi-1 {
   right: 0;
 }
-.sc-4 .img-t .row .col .text-testi-2 {
+.sc-4 .img-t .text-testi-2 {
   margin-left: 10px;
 }
 
@@ -17475,11 +17586,46 @@ section .our-team .titre {
 .sct-5 .contact-us h2 span, .sct-5 .contact-us .h2 span {
   color: #c03341;
 }
+@media screen and (max-width: 600px) {
+  .sct-5 .contact-us .under-l {
+    text-align: center;
+    width: 50%;
+  }
+}
 .sct-5 .contact-us .cont-contact {
   background-color: #c03341;
   width: 400px;
   border: 1px solid #c03341;
   border-radius: 10px;
+}
+@media screen and (max-width: 600px) {
+  .sct-5 .contact-us .cont-contact {
+    width: 200px;
+  }
+}
+
+footer .container-fluid, footer .container-sm, footer .container-md, footer .container-lg, footer .container-xl, footer .container-xxl {
+  background-image: url("../../../public/images/footer_background.jpg");
+  position: relative;
+}
+footer .container-fluid .deco, footer .container-sm .deco, footer .container-md .deco, footer .container-lg .deco, footer .container-xl .deco, footer .container-xxl .deco {
+  position: relative;
+  top: 0;
+  left: 0;
+  padding-bottom: 20px;
+}
+footer .container-fluid .c-insta img, footer .container-sm .c-insta img, footer .container-md .c-insta img, footer .container-lg .c-insta img, footer .container-xl .c-insta img, footer .container-xxl .c-insta img {
+  height: 75px;
+  width: 75px;
+  margin: 5px;
+}
+footer .container-fluid .pilu span, footer .container-sm .pilu span, footer .container-md .pilu span, footer .container-lg .pilu span, footer .container-xl .pilu span, footer .container-xxl .pilu span {
+  border: 1px solid white !important;
+}
+footer .bb-r {
+  background-color: #c03341;
+  height: 100px;
+  width: 100%;
 }
 
 /*# sourceMappingURL=app.css.map */
