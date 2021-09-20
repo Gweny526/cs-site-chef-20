@@ -17244,14 +17244,13 @@ textarea.form-control-lg {
   border-top: 1px solid white;
 }
 .navbar .nav-link:hover {
-  background-color: #c03341;
+  background-color: #c42d40;
 }
 @media screen and (max-width: 600px) {
   .navbar .log-nav {
     display: none;
   }
 }
-
 .text-banner .container-fluid, .text-banner .container-sm, .text-banner .container-md, .text-banner .container-lg, .text-banner .container-xl, .text-banner .container-xxl {
   position: absolute;
   z-index: 1;
@@ -17272,7 +17271,7 @@ textarea.form-control-lg {
   margin: 0 150px 0;
 }
 .text-banner .container-fluid .col h1 .span-color, .text-banner .container-sm .col h1 .span-color, .text-banner .container-md .col h1 .span-color, .text-banner .container-lg .col h1 .span-color, .text-banner .container-xl .col h1 .span-color, .text-banner .container-xxl .col h1 .span-color, .text-banner .container-fluid .col .h1 .span-color, .text-banner .container-sm .col .h1 .span-color, .text-banner .container-md .col .h1 .span-color, .text-banner .container-lg .col .h1 .span-color, .text-banner .container-xl .col .h1 .span-color, .text-banner .container-xxl .col .h1 .span-color {
-  color: #c03341 !important;
+  color: #c42d40 !important;
 }
 @media screen and (max-width: 600px) {
   .text-banner .container-fluid .col h1, .text-banner .container-sm .col h1, .text-banner .container-md .col h1, .text-banner .container-lg .col h1, .text-banner .container-xl .col h1, .text-banner .container-xxl .col h1, .text-banner .container-fluid .col .h1, .text-banner .container-sm .col .h1, .text-banner .container-md .col .h1, .text-banner .container-lg .col .h1, .text-banner .container-xl .col .h1, .text-banner .container-xxl .col .h1 {
@@ -17289,7 +17288,8 @@ textarea.form-control-lg {
 }
 @media screen and (min-width: 600px) and (max-width: 1024px) {
   .text-banner .container-fluid .col h1, .text-banner .container-sm .col h1, .text-banner .container-md .col h1, .text-banner .container-lg .col h1, .text-banner .container-xl .col h1, .text-banner .container-xxl .col h1, .text-banner .container-fluid .col .h1, .text-banner .container-sm .col .h1, .text-banner .container-md .col .h1, .text-banner .container-lg .col .h1, .text-banner .container-xl .col .h1, .text-banner .container-xxl .col .h1 {
-    display: none;
+    font-size: 30px !important;
+    margin: 0 !important;
   }
 }
 .text-banner .container-fluid .span-red, .text-banner .container-sm .span-red, .text-banner .container-md .span-red, .text-banner .container-lg .span-red, .text-banner .container-xl .span-red, .text-banner .container-xxl .span-red {
@@ -17312,6 +17312,9 @@ textarea.form-control-lg {
   background: #000;
   opacity: 0.7;
 }
+.carousel .carousel-item .deco-b {
+  background-image: url(../../../public/images/bottom_decoration_img.png);
+}
 
 main {
   background-image: url("../../../public/images/main_bg.jpg");
@@ -17325,7 +17328,7 @@ main {
   font-family: "courgette";
 }
 .sc-1 .our-story h2 span, .sc-1 .our-story .h2 span {
-  color: #c03341;
+  color: #c42d40;
 }
 @media screen and (max-width: 600px) {
   .sc-1 .our-story img {
@@ -17335,6 +17338,11 @@ main {
 }
 .sc-1 .our-story p {
   margin: 0 300px 0 300px !important;
+}
+@media screen and (max-width: 600px) {
+  .sc-1 .our-story p {
+    margin: 0 10px 0 10px !important;
+  }
 }
 .sc-1 .container {
   background-color: white;
@@ -17364,7 +17372,7 @@ main {
   font-family: "courgette";
 }
 .sc-1 .Menu-list h2 span, .sc-1 .Menu-list .h2 span {
-  color: #c03341;
+  color: #c42d40;
 }
 @media screen and (max-width: 600px) {
   .sc-1 .Menu-list img {
@@ -17377,10 +17385,10 @@ main {
   border-right: 1px solid gray;
 }
 .sc-1 .Menu-list .l-c:hover {
-  border-right: 5px solid #c03341;
+  border-right: 5px solid #c42d40;
 }
 .sc-1 .Menu-list .l-c:hover i {
-  color: #c03341 !important;
+  color: #c42d40 !important;
 }
 .sc-1 .Menu-list .l-c h3, .sc-1 .Menu-list .l-c .h3 {
   font-family: "courgette";
@@ -17413,7 +17421,7 @@ section .our-team .titre {
   font-family: "courgette";
 }
 section .our-team .titre span {
-  color: #c03341;
+  color: #c42d40;
 }
 @media screen and (max-width: 600px) {
   section .our-team .under-l {
@@ -17455,7 +17463,7 @@ section .our-team .titre span {
   font-family: "courgette";
 }
 .sc-3 .book-table h2 span, .sc-3 .book-table .h2 span {
-  color: #c03341;
+  color: #c42d40;
 }
 @media screen and (max-width: 600px) {
   .sc-3 .book-table .under-l {
@@ -17503,6 +17511,14 @@ section .our-team .titre span {
 }
 .sc-3 .container-img .row .col {
   position: relative;
+  padding: 0;
+}
+@media screen and (max-width: 600px) {
+  .sc-3 .container-img .row .col {
+    width: 351px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
 }
 .sc-3 .container-img .row .col img {
   height: 200px;
@@ -17510,19 +17526,31 @@ section .our-team .titre span {
   border-radius: 4% !important;
   border: 5px solid lightgray;
 }
+@media screen and (max-width: 600px) {
+  .sc-3 .container-img .row .col img {
+    height: 100px !important;
+    width: 200px !important;
+  }
+}
 .sc-3 .container-img .row .col .badge {
   position: absolute;
-  bottom: 95px;
-  left: 120px;
+  bottom: 99px;
+  left: 98px;
+}
+@media screen and (max-width: 600px) {
+  .sc-3 .container-img .row .col .badge {
+    left: 35px !important;
+    font-size: 15px !important;
+  }
 }
 .sc-3 .container-img .row .col .badge span {
   margin-left: 120px !important;
   margin-top: 0;
 }
-.sc-3 .container-img .row .col .badge .gr-2 {
-  z-index: 1;
-  margin-left: 0 !important;
-  margin-right: 20px !important;
+@media screen and (max-width: 600px) {
+  .sc-3 .container-img .row .col .badge span {
+    font-size: 20px !important;
+  }
 }
 .sc-3 .container-img .row .col .t-blog {
   margin-top: 120px !important;
@@ -17536,7 +17564,7 @@ section .our-team .titre span {
   font-family: "courgette";
 }
 .sc-4 .testimo h2 span, .sc-4 .testimo .h2 span {
-  color: #c03341;
+  color: #c42d40;
 }
 @media screen and (max-width: 600px) {
   .sc-4 .testimo .under-l {
@@ -17544,21 +17572,36 @@ section .our-team .titre span {
     width: 50%;
   }
 }
-.sc-4 .img-t .row .col {
+.sc-4 .img-t .row .test {
   margin-bottom: 25px;
   position: relative;
 }
-.sc-4 .img-t .row .col img {
+.sc-4 .img-t .row .test img {
   height: 200px;
   border: 5px solid lightgray;
   border-radius: 50%;
 }
 @media screen and (max-width: 600px) {
-  .sc-4 .img-t .row .col img {
+  .sc-4 .img-t .row .test img {
     height: 100px !important;
   }
 }
-.sc-4 .img-t .row .text-testi-1,
+.sc-4 .img-t .row .text-testi-1 {
+  position: absolute;
+  top: 0;
+  height: 200px;
+  color: white;
+  width: 50%;
+  border: 1px solid white;
+  border-radius: 2%;
+  padding: 10px;
+}
+@media screen and (max-width: 600px) {
+  .sc-4 .img-t .row .text-testi-1 {
+    height: 120px;
+    font-size: 10px;
+  }
+}
 .sc-4 .img-t .row .text-testi-2 {
   position: absolute;
   top: 0;
@@ -17569,9 +17612,15 @@ section .our-team .titre span {
   border-radius: 2%;
   padding: 10px;
 }
+@media screen and (max-width: 600px) {
+  .sc-4 .img-t .row .text-testi-2 {
+    height: 120px;
+    font-size: 10px;
+  }
+}
 .sc-4 .img-t .row span {
   text-transform: capitalize;
-  color: #c03341;
+  color: #c42d40;
 }
 .sc-4 .img-t .text-testi-1 {
   right: 0;
@@ -17584,7 +17633,7 @@ section .our-team .titre span {
   font-family: "courgette";
 }
 .sct-5 .contact-us h2 span, .sct-5 .contact-us .h2 span {
-  color: #c03341;
+  color: #c42d40;
 }
 @media screen and (max-width: 600px) {
   .sct-5 .contact-us .under-l {
@@ -17593,9 +17642,9 @@ section .our-team .titre span {
   }
 }
 .sct-5 .contact-us .cont-contact {
-  background-color: #c03341;
+  background-color: #c42d40;
   width: 400px;
-  border: 1px solid #c03341;
+  border: 1px solid #c42d40;
   border-radius: 10px;
 }
 @media screen and (max-width: 600px) {
@@ -17604,15 +17653,13 @@ section .our-team .titre span {
   }
 }
 
+footer .deco {
+  background-image: url(../../../public/images/footer_bottom_decoration_img.png);
+  background-repeat: repeat-x;
+  z-index: 10;
+}
 footer .container-fluid, footer .container-sm, footer .container-md, footer .container-lg, footer .container-xl, footer .container-xxl {
   background-image: url("../../../public/images/footer_background.jpg");
-  position: relative;
-}
-footer .container-fluid .deco, footer .container-sm .deco, footer .container-md .deco, footer .container-lg .deco, footer .container-xl .deco, footer .container-xxl .deco {
-  position: relative;
-  top: 0;
-  left: 0;
-  padding-bottom: 20px;
 }
 footer .container-fluid .c-insta img, footer .container-sm .c-insta img, footer .container-md .c-insta img, footer .container-lg .c-insta img, footer .container-xl .c-insta img, footer .container-xxl .c-insta img {
   height: 75px;
@@ -17623,7 +17670,7 @@ footer .container-fluid .pilu span, footer .container-sm .pilu span, footer .con
   border: 1px solid white !important;
 }
 footer .bb-r {
-  background-color: #c03341;
+  background-color: #c42d40;
   height: 100px;
   width: 100%;
 }

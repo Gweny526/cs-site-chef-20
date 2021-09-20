@@ -23,7 +23,7 @@
 
     .img-t {
         .row {
-            .col {
+            .test {
                 margin-bottom: 25px;
 
                 position: relative;
@@ -40,8 +40,7 @@
                 }
             }
 
-            .text-testi-1,
-            .text-testi-2 {
+            .text-testi-1 {
                 position: absolute;
                 top: 0;
                 height: 200px;
@@ -50,9 +49,28 @@
                 border: 1px solid white;
                 border-radius: 2%;
                 padding: 10px;
-
+                @media screen and (max-width:600px) {
+                    
+                    height: 120px;
+                    font-size: 10px;
+                }
+               
+                
             }
-
+            .text-testi-2{
+                position: absolute;
+                top: 0;
+                height: 200px;
+                color: white;
+                width: 50%;
+                border: 1px solid white;
+                border-radius: 2%;
+                padding: 10px;
+                @media screen and (max-width:600px) {
+                    height: 120px;
+                    font-size: 10px;
+                }
+            }
             span {
                 text-transform: capitalize;
                 color: $color-red;

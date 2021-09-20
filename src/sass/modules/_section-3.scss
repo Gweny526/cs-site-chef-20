@@ -82,27 +82,46 @@
     .container-img{
         .row{
             .col{
+                @media screen and (max-width:600px) {
+                    width: 351px!important;
+                    margin: 0!important;
+                    padding: 0!important;
+                    
+                }
                 position: relative;
+                padding: 0;
                 img{
                     height: 200px;
                     width: 400px;
                     border-radius: 4%!important;
                     border: 5px solid lightgray;
+                    @media screen and (max-width:600px) {
+                        height: 100px!important;
+                        width: 200px!important;
+                    }
                     
                 }
                 .badge{
                     position: absolute;
-                    bottom: 95px;
-                    left: 120px;
+                    bottom: 99px;
+                    left: 98px;
+                    @media screen and (max-width:600px) {
+                        left: 35px!important;
+                        font-size: 15px!important;
+                        
+                    }
                     span{
                         margin-left: 120px!important;
                         margin-top: 0;
+                        @media screen and (max-width:600px) {
+                            font-size: 20px!important;
+                        }                       
                     }
-                    .gr-2{
-                        z-index: 1;
-                        margin-left: 0!important;
-                        margin-right: 20px!important;
-                    }
+                    // .gr-2{
+                        
+                    //     margin-left: 0!important;
+                    //     margin-right: 20px!important;
+                    // }
                 }
                 .t-blog{
                     margin-top: 120px!important;
