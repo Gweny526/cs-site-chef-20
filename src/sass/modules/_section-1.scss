@@ -2,32 +2,43 @@
 .sc-1 {
     padding-top: 50px;
     padding-bottom: 50px;
-    .our-story{
-        h2{
+
+    .our-story {
+        h2 {
             font-family: "courgette";
-            span{
+
+            span {
                 color: $color-red;
             }
         }
-        img{
+
+        img {
 
             @media screen and (max-width:600px) {
                 text-align: center;
                 width: 50%;
-                
+
             }
         }
-        p{
-            margin: 0 300px 0 300px!important;
+
+        p {
+            margin: 0 300px 0 300px !important;
+
             @media screen and (max-width:600px) {
-                margin: 0 10px 0 10px!important;
+                margin: 0 10px 0 10px !important;
+            }
+
+            @media screen and (min-width:600px) and (max-width: 1024px) {
+                margin: 0 5% 0 !important;
             }
         }
     }
+
     .container {
         background-color: white;
         position: relative;
-        .coin-gauche-haut{
+
+        .coin-gauche-haut {
             position: absolute;
             top: 0;
             left: 0;
@@ -53,64 +64,72 @@
     }
 
     .Menu-list {
-        h2{
+        h2 {
             font-family: "courgette";
-            span{
+
+            span {
                 color: $color-red;
             }
         }
-        img{
+
+        img {
 
             @media screen and (max-width:600px) {
                 text-align: center;
                 width: 50%;
-                
+
             }
-        }        
-        .logo{
         }
-        .l-c{
+
+        .logo {}
+
+        .l-c {
             border-bottom: 1px solid gray;
             border-right: 1px solid gray;
-                &:hover{
-                    border-right: 5px solid $color-red;
-                i{
-                    
-                        color: $color-red!important;
+
+            &:hover {
+                border-right: 5px solid $color-red;
+
+                i {
+
+                    color: $color-red !important;
 
                 }
-            }           
-            h3{
+            }
+
+            h3 {
                 font-family: "courgette";
-                @media screen and (max-width:600px){
-                    font-size: 10px!important;
-                }
-            }
-        }
-}
-        .cl-img{
-            .b-b-l{
-                display: flex;
-                border-bottom: 1px solid lightgray;
-                @media screen and (max-width:600px) {
-                }
-                
-                
-                .rounded-circle {
-                    height: 85px!important;
-                    margin: 2%!important;
-                    border:5px solid lightgray!important;
-                    @media screen and (max-width: 600px) {
 
-                        
-                    }
-                }
-            }
-            .prix{
-                padding-top: 30px!important;
-                span{
-                    margin: auto;
+                @media screen and (max-width:600px) {
+                    font-size: 10px !important;
                 }
             }
         }
     }
+
+    .cl-img {
+        .b-b-l {
+            display: flex;
+            border-bottom: 1px solid lightgray;
+
+            @media screen and (max-width:600px) {}
+
+
+            .rounded-circle {
+                height: 85px !important;
+                margin: 2% !important;
+                border: 5px solid lightgray !important;
+
+                @media screen and (max-width: 600px) {}
+            }
+        }
+
+        .prix {
+            padding-top: 30px !important;
+
+            span {
+                margin: auto;
+            }
+        }
+    }
+}
