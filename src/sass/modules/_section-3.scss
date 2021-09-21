@@ -1,6 +1,6 @@
 // section 3
 .sc-3{
-    background-image: url(../../../public/images/main_bg.jpg);
+    background-image: url("../images/main_bg.jpg");
     padding-top: 50px;
     padding-bottom: 50px;
     .container{
@@ -46,7 +46,7 @@
         }
     }
     .form-book{
-        background-image: url(../../../public/images/book_table_bg.jpg);
+        background-image: url("../images/book_table_bg.jpg");
         width: 50%;
         border-radius: 3%;
         margin-left: 25%;

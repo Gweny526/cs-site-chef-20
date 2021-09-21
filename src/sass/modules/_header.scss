@@ -4,12 +4,20 @@
     background: transparent !important;
     width: 100%;
     z-index: 10;
-
+    
     .nav-link {
         color: white;
         font-weight: bold;
         border-bottom: 1px solid white;
         border-top: 1px solid white;
+        @media screen and (max-width:600px) {
+            background-color: black!important;
+            text-align: center;
+        }
+        @media screen and (min-width:600px) and (max-width:1024px) {
+            text-align: center;
+            background-color: black!important;
+        }
 
         &:hover {
             background-color: $color-red;
@@ -18,9 +26,6 @@
     .log-nav{
         @media screen and (max-width:600px) {
             display: none;
-            
-        }
-        @media screen and (min-width) {
             
         }
     }
@@ -110,7 +115,7 @@
             opacity: 0.7;
         }
         .deco-b{
-            background-image: url(../../../public/images/bottom_decoration_img.png);
+            background-image: url(../images/bottom_decoration_img.png);
         }
     }
 }
