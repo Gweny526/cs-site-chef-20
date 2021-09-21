@@ -17497,8 +17497,8 @@ section .our-team .titre span {
 }
 @media screen and (max-width: 600px) {
   .sc-3 .form-book {
-    width: 100%;
-    margin: 0%;
+    width: 90%;
+    margin: auto;
   }
 }
 .sc-3 .form-book .c-f {
@@ -17508,7 +17508,12 @@ section .our-team .titre span {
   align-items: center;
 }
 .sc-3 .form-book .c-f .f-s {
-  margin: 0 50px !important;
+  margin-left: 13%;
+}
+@media screen and (max-width: 600px) {
+  .sc-3 .form-book .c-f .f-s {
+    margin-right: 0 !important;
+  }
 }
 .sc-3 .form-book .c-f select, .sc-3 .form-book .c-f input {
   width: 200px;
@@ -17539,23 +17544,23 @@ section .our-team .titre span {
     margin-left: 15px !important;
   }
 }
-.sc-3 .c-img .row .col-6 .d-img {
+.sc-3 .c-img .row .c-c .d-img {
   padding: 0;
   position: relative;
 }
-.sc-3 .c-img .row .col-6 .d-img .img-b {
+.sc-3 .c-img .row .c-c .d-img .img-b {
   height: 200px !important;
   width: 400px !important;
   border-radius: 5px !important;
   border: 5px solid lightgray;
 }
 @media screen and (max-width: 600px) {
-  .sc-3 .c-img .row .col-6 .d-img .img-b {
+  .sc-3 .c-img .row .c-c .d-img .img-b {
     height: 100px !important;
-    width: 200px !important;
+    width: 150px !important;
   }
 }
-.sc-3 .c-img .row .col-6 .d-img .etiquette {
+.sc-3 .c-img .row .c-c .d-img .etiquette {
   background-color: #c42d40;
   color: white;
   padding: 10px;
@@ -17563,31 +17568,38 @@ section .our-team .titre span {
   border-radius: 5px;
   position: absolute;
   bottom: -25px;
-  left: 150px;
+  left: 40%;
 }
 @media screen and (max-width: 600px) {
-  .sc-3 .c-img .row .col-6 .d-img .etiquette {
+  .sc-3 .c-img .row .c-c .d-img .etiquette {
     left: 35px !important;
     font-size: 15px !important;
   }
 }
-.sc-3 .c-img .row .col-6 .d-img .etiquette .etiquette {
+.sc-3 .c-img .row .c-c .d-img .etiquette .etiquette {
   margin-left: 120px !important;
   margin-top: 0;
 }
 @media screen and (max-width: 600px) {
-  .sc-3 .c-img .row .col-6 .d-img .etiquette .etiquette {
+  .sc-3 .c-img .row .c-c .d-img .etiquette .etiquette {
     font-size: 20px !important;
   }
 }
-.sc-3 .c-img .row .col-6 .t-blog {
+.sc-3 .c-img .row .c-c .t-blog {
   text-align: start;
   padding-top: 5%;
   margin: 0 100px 0 100px !important;
 }
+@media screen and (max-width: 600px) {
+  .sc-3 .c-img .row .c-c .t-blog {
+    margin-right: 50px;
+    text-align: center;
+    font-size: 50%;
+  }
+}
 
 .sc-4 .testimo {
-  background-image: url("../../../public/images/testimonials_background.jpg");
+  background-image: url("../images/testimonials_background.jpg");
 }
 .sc-4 .testimo h2, .sc-4 .testimo .h2 {
   font-family: "courgette";
