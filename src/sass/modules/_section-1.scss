@@ -1,24 +1,116 @@
 // section 1
-.sc-1{
+.sc-1 {
     padding-top: 50px;
     padding-bottom: 50px;
-    .container{
+    .our-story{
+        h2{
+            font-family: "courgette";
+            span{
+                color: $color-red;
+            }
+        }
+        img{
+
+            @media screen and (max-width:600px) {
+                text-align: center;
+                width: 50%;
+                
+            }
+        }
+        p{
+            margin: 0 300px 0 300px!important;
+            @media screen and (max-width:600px) {
+                margin: 0 10px 0 10px!important;
+            }
+        }
+    }
+    .container {
         background-color: white;
         position: relative;
-        .coin-droit-haut{
+        .coin-gauche-haut{
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        .coin-droit-haut {
             position: absolute;
             right: 0;
             top: 0;
         }
-        .coin-gauche-bas{
+
+        .coin-gauche-bas {
             position: absolute;
             left: 0;
             bottom: 0;
         }
-        .coin-droit-bas{
-            position:absolute;
+
+        .coin-droit-bas {
+            position: absolute;
             right: 0;
             bottom: 0;
         }
     }
+
+    .Menu-list {
+        h2{
+            font-family: "courgette";
+            span{
+                color: $color-red;
+            }
+        }
+        img{
+
+            @media screen and (max-width:600px) {
+                text-align: center;
+                width: 50%;
+                
+            }
+        }        
+        .logo{
+        }
+        .l-c{
+            border-bottom: 1px solid gray;
+            border-right: 1px solid gray;
+                &:hover{
+                    border-right: 5px solid $color-red;
+                i{
+                    
+                        color: $color-red!important;
+
+                }
+            }           
+            h3{
+                font-family: "courgette";
+                @media screen and (max-width:600px){
+                    font-size: 10px!important;
+                }
+            }
+        }
 }
+        .cl-img{
+            .b-b-l{
+                display: flex;
+                border-bottom: 1px solid lightgray;
+                @media screen and (max-width:600px) {
+                }
+                
+                
+                .rounded-circle {
+                    height: 85px!important;
+                    margin: 2%!important;
+                    border:5px solid lightgray!important;
+                    @media screen and (max-width: 600px) {
+
+                        
+                    }
+                }
+            }
+            .prix{
+                padding-top: 30px!important;
+                span{
+                    margin: auto;
+                }
+            }
+        }
+    }

@@ -1,0 +1,134 @@
+// section 3
+.sc-3{
+    background-image: url(../../../public/images/main_bg.jpg);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    .container{
+        background-color: white;
+        position: relative;
+        .coin-gauche-haut{
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        .coin-droit-haut {
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+
+        .coin-gauche-bas {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+        }
+
+        .coin-droit-bas {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+        }
+    }
+    .book-table{
+        h2{
+            font-family: "courgette";
+            span{
+                color: $color-red;
+            }
+        }
+        .under-l{
+
+            @media screen and (max-width:600px) {
+                text-align: center;
+                width: 50%;
+                
+            }
+        }
+    }
+    .form-book{
+        background-image: url(../../../public/images/book_table_bg.jpg);
+        width: 50%;
+        border-radius: 3%;
+        margin-left: 25%;
+        .c-f{
+            .form-select,input{
+                width: 200px;
+                height: 40px;
+                margin-bottom: 10px;
+                border: 1px solid white;
+                border-radius: 10px;
+                @media screen and (max-width:600px) {
+                    width: 70%;
+
+                }
+                @media screen and (min-width:600px) and (max-width:1024px) {
+                    width: 80%;
+                }
+            }
+            .form-select{
+                margin-left: 35px!important;
+                @media screen  and (max-width:600px){
+                    margin: 0 0 10px 0!important;
+                    margin-left: 25px!important;
+                }
+                @media screen and (min-width:600px) and (max-width:1024px) {
+                    margin: 0 0 10px 0!important;
+                    margin-left: 15px!important;
+                }
+            
+            }
+        }
+    }
+    .container-img{
+        .row{
+            .col{
+                @media screen and (max-width:600px) {
+                    width: 351px!important;
+                    margin: 0!important;
+                    padding: 0!important;
+                    
+                }
+                position: relative;
+                padding: 0;
+                img{
+                    height: 200px;
+                    width: 400px;
+                    border-radius: 4%!important;
+                    border: 5px solid lightgray;
+                    @media screen and (max-width:600px) {
+                        height: 100px!important;
+                        width: 200px!important;
+                    }
+                    
+                }
+                .badge{
+                    position: absolute;
+                    bottom: 95px;
+                    left: 98px;
+                    @media screen and (max-width:600px) {
+                        left: 35px!important;
+                        font-size: 15px!important;
+                        
+                    }
+                    span{
+                        margin-left: 120px!important;
+                        margin-top: 0;
+                        @media screen and (max-width:600px) {
+                            font-size: 20px!important;
+                        }                       
+                    }
+                    // .gr-2{
+                        
+                    //     margin-left: 0!important;
+                    //     margin-right: 20px!important;
+                    // }
+                }
+                .t-blog{
+                    margin-top: 120px!important;
+                    margin: 0 100px 0 100px!important;
+                    
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,90 @@
+// section 4
+.sc-4 {
+    .testimo {
+        background-image: url("../../../public/images/testimonials_background.jpg");
+
+        h2 {
+            font-family: "courgette";
+
+            span {
+                color: $color-red;
+            }
+        }
+
+        .under-l {
+
+            @media screen and (max-width:600px) {
+                text-align: center;
+                width: 50%;
+
+            }
+        }
+    }
+
+    .img-t {
+        .row {
+            .test {
+                margin-bottom: 25px;
+
+                position: relative;
+
+                img {
+                    height: 200px;
+                    border: 5px solid lightgray;
+                    border-radius: 50%;
+
+                    @media screen and (max-width:600px) {
+                        height: 100px !important;
+
+                    }
+                }
+            }
+
+            .text-testi-1 {
+                position: absolute;
+                top: 0;
+                height: 200px;
+                color: white;
+                width: 50%;
+                border: 1px solid white;
+                border-radius: 2%;
+                padding: 10px;
+                @media screen and (max-width:600px) {
+                    
+                    height: 120px;
+                    font-size: 10px;
+                }
+               
+                
+            }
+            .text-testi-2{
+                position: absolute;
+                top: 0;
+                height: 200px;
+                color: white;
+                width: 50%;
+                border: 1px solid white;
+                border-radius: 2%;
+                padding: 10px;
+                @media screen and (max-width:600px) {
+                    height: 120px;
+                    font-size: 10px;
+                }
+            }
+            span {
+                text-transform: capitalize;
+                color: $color-red;
+            }
+
+        }
+
+        .text-testi-1 {
+            right: 0;
+
+        }
+
+        .text-testi-2 {
+            margin-left: 10px;
+        }
+    }
+}
