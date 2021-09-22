@@ -17501,21 +17501,13 @@ section .our-team .titre span {
     margin: auto;
   }
 }
-.sc-3 .form-book .c-f {
+.sc-3 .form-book form {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.sc-3 .form-book .c-f .f-s {
-  margin-left: 13%;
-}
-@media screen and (max-width: 600px) {
-  .sc-3 .form-book .c-f .f-s {
-    margin-right: 0 !important;
-  }
-}
-.sc-3 .form-book .c-f select, .sc-3 .form-book .c-f input {
+.sc-3 .form-book form select, .sc-3 .form-book form input {
   width: 200px;
   height: 40px;
   margin-bottom: 10px;
@@ -17523,25 +17515,23 @@ section .our-team .titre span {
   border-radius: 10px;
 }
 @media screen and (max-width: 600px) {
-  .sc-3 .form-book .c-f select, .sc-3 .form-book .c-f input {
+  .sc-3 .form-book form select, .sc-3 .form-book form input {
     width: 200px;
   }
 }
 @media screen and (min-width: 600px) and (max-width: 1024px) {
-  .sc-3 .form-book .c-f select, .sc-3 .form-book .c-f input {
+  .sc-3 .form-book form select, .sc-3 .form-book form input {
     width: 80%;
   }
 }
 @media screen and (max-width: 600px) {
-  .sc-3 .form-book .c-f .form-select {
+  .sc-3 .form-book form .form-select {
     margin: 0 0 10px 0 !important;
-    margin-left: 25px !important;
   }
 }
 @media screen and (min-width: 600px) and (max-width: 1024px) {
-  .sc-3 .form-book .c-f .form-select {
+  .sc-3 .form-book form .form-select {
     margin: 0 0 10px 0 !important;
-    margin-left: 15px !important;
   }
 }
 .sc-3 .c-img .row .c-c .d-img {
